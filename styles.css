@@ -1,0 +1,54 @@
+@font-face {
+    font-family: ultrakill;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+body{
+    display: block;
+    align-items: center;
+    min-height: 100vh;
+    background: #262329;
+}
+
+.card{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(53, 53, 73);
+    color: aliceblue;
+}
+
+.titulo{
+    text-align: center;
+    font-family: ultrakill;
+    color: aliceblue;
+}
+
+.list-group{
+    display: flex;
+    margin-right: 600px;
+}
+
+.accordion-item{
+    background-color: rgb(53, 53, 73);
+}
+
+.accordion-button{
+    background-color: rgb(26, 26, 32);
+    color: aliceblue;
+}
+
+.colegios{
+    color: aliceblue;
+    text-align: center;
+}
+
+.curicculofoto{
+    position:absolute;
+    left:65%;
+    top:15%;
+    margin-left:-40px;
+    margin-top:-40px;
+    height: 350px;
+    width: 350px;
+}
